@@ -1,13 +1,10 @@
 ---
-title: test
+title: First Posting
 author: Zoren
 date: 2024-11-07 00:00:00 +0900
 categories: [Blogging, Tutorial]
-tags: [favicon]
-description: >-
-  첫 게시물 
-pin: true
-media_subpath: '/posts/20241107'
+tags: [writing]
+render_with_liquid: false
 ---
 
 # 퀵 정렬 알고리즘 비교 횟수 계산
