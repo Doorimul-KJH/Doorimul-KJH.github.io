@@ -176,6 +176,7 @@ tail_includes:
   </div>
   <!-- div.post-tail-wrapper -->
 </article>
+{% if page.comments and site.disqus_shortname %}<section id="disqus_thread" class="animated fadeInUp">
 <script src="https://utteranc.es/client.js"
         repo="Doorimul-KJH/Doorimul-KJH.github.io"
         issue-term="pathname"
@@ -184,3 +185,4 @@ tail_includes:
         crossorigin="anonymous"
         async>
 </script>
+</section>{% endif %}
