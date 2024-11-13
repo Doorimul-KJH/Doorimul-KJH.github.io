@@ -1,3 +1,12 @@
+---
+title: How to build My Own Blog Using GitHub Pages (Chirpy Theme)
+author: Zoren
+date: 2024-11-11 00:00:00 +0900
+categories: [Blogging, Tutorial]
+tags: [writing]
+render_with_liquid: false
+---
+
 Apple Silicon 환경에서 GitHub Pages를 이용해 Jekyll 기반의 블로그를 만드는 방법입니다.
 
 ### Step 0. 사전 준비사항
