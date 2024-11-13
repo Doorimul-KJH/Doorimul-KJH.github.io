@@ -1,4 +1,4 @@
----
+<!-- ---
 title: Getting Started
 description: >-
   Get started with Chirpy basics in this comprehensive overview.
@@ -9,7 +9,7 @@ categories: [Blogging, Tutorial]
 tags: [getting started]
 pin: true
 media_subpath: '/posts/20180809'
----
+--- -->
 
 ## Creating a Site Repository
 
