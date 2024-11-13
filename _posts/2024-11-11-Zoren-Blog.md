@@ -198,7 +198,7 @@ Apple Silicon 환경에서 GitHub Pages를 이용해 Jekyll 기반의 블로그�
 - 변경 사항을 Commit 및 Push 하세요:
   ```bash
   git add .
-  git commit -m "Update configuration"
+  git commit -m "Update _config.yml"
   git push origin main
   ```
 
