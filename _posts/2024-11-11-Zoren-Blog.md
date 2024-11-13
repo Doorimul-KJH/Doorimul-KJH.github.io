@@ -11,7 +11,7 @@ Apple Silicon 환경에서 GitHub Pages를 이용해 Jekyll 기반의 블로그�
 
 ### Step 0. 사전 준비사항
 
-- macOS (Apple Silicon 또는 Intel) Snoma 14.5.1
+- macOS (Apple Silicon M2 Max) Sonoma 14.5.1
 - Git 설치 (Homebrew 사용 권장)
 - VS Code 설치
 - Github 가입
