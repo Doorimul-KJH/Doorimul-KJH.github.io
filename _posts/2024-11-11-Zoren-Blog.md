@@ -49,9 +49,10 @@ Apple Silicon 환경에서 GitHub Pages를 이용해 Jekyll 기반의 블로그�
 
 #### Step 2-1. rbenv와 Ruby 설치
 
-- rbenv와 ruby-build를 설치하세요:
+- rbenv와 ruby-build를 설치하세요(매우 중요):
   ```bash
   brew install rbenv ruby-build
+  #brew install ruby 했다가, 처음부터 다시하는 낭패를 보았습니다...
   ```
 - rbenv 초기화 및 설정하세요:
   ```bash
@@ -69,7 +70,6 @@ Apple Silicon 환경에서 GitHub Pages를 이용해 Jekyll 기반의 블로그�
   ```
 - Ruby를 설치하세요(매우 중요) (예: 3.3.5 버전):
   ```bash
-  #brew install ruby 했다가, 처음부터 다시하는 낭패를 보았습니다...
   rbenv install 3.3.5
   ```
 - Ruby 버전을 확인하세요:
