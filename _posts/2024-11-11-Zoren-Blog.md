@@ -9,7 +9,7 @@ render_with_liquid: false
 
 Apple Silicon 환경에서 GitHub Pages를 이용해 Jekyll 기반의 블로그를 만드는 방법입니다.
 
-### Step 0. 사전 준비사항
+### Step 0. 사전 준비사항(개발환경)
 
 - macOS (Apple Silicon M2 Max) Sonoma 14.5.1
 - Git 설치 (Homebrew 사용 권장)
