@@ -1,8 +1,8 @@
 ---
-title: First Posting
+title: How to find the number of comparisons for the quick sort algorithm (Java)
 author: Zoren
 date: 2024-11-07 00:00:00 +0900
-categories: [Blogging, Tutorial]
+categories: [Blogging]
 tags: [writing]
 render_with_liquid: false
 ---
