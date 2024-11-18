@@ -1,6 +1,6 @@
 ---
 title: How to find the number of comparisons for the quick sort algorithm (Java)
-author: Zoren
+author: Doorimul-KJH
 date: 2024-11-07 00:00:00 +0900
 categories: [Blogging]
 tags: [writing]
