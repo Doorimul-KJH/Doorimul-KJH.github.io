@@ -1,6 +1,6 @@
 ---
 title: How to build My Own Blog Using GitHub Pages (Chirpy Theme)
-author: Zoren
+author: Doorimul-KJH
 date: 2024-11-11 00:00:00 +0900
 categories: [Blogging, Tutorial]
 tags: [writing]
