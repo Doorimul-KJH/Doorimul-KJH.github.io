@@ -202,4 +202,4 @@ Apple Silicon 환경에서 GitHub Pages를 이용해 Jekyll 기반의 블로그�
   git push origin main
   ```
 
-
+![Desktop View](/assets/img/posts/utterance_blog_issue_mapping.png){: width="700" height="400" }
