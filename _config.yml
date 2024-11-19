@@ -60,7 +60,7 @@ webmaster_verifications:
 analytics:
   google:
     id: # fill in your Google Analytics ID
-  goatcounter:
+  Ícounter:
     id: doorimul-kjh # fill in your GoatCounter ID
   umami:
     id: # fill in your Umami ID
