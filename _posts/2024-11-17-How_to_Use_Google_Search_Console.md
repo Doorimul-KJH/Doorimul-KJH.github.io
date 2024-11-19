@@ -26,15 +26,15 @@ render_with_liquid: false
 1. **Google Search Console 접속**: [Google Search Console](https://search.google.com/search-console)에 접속하세요.
 
 2. **시작하기 버튼 클릭**:  **시작하기** 버튼을 클릭하세요.
-   - ![이미지](https://doorimul-kjh.github.io/assets/img/posts/google_search_engine_start.png){: width="700" }
+   ![이미지](https://doorimul-kjh.github.io/assets/img/posts/google_search_engine_start.png){: width="700" }
 
 3. **사이트 등록**: 도메인 또는 URL Prefix를 입력하여 사이트를 등록하세요. 
    - **왼쪽에서 URL Prefix 선택 후 블로그 주소 입력**: 일반적으로 `URL Prefix`를 선택하고 자신의 블로그 주소를 입력하세요 (예: `https://zoren.github.io`).
-   - ![이미지](https://doorimul-kjh.github.io/assets/img/posts/google_search_engine_url.png){: width="700" }
+   ![이미지](https://doorimul-kjh.github.io/assets/img/posts/google_search_engine_url.png){: width="700" }
 
 4. **소유권 확인(중요)**: 소유권을 확인하는 단계에서 HTML 파일 업로드, HTML 태그 추가, Google Analytics 계정 연결 등의 방법이 제공됩니다. 
    - **HTML 태그 추가 선택**: 여러 옵션 중에서 **HTML 태그 추가**를 선택하고, 제공된 메타 태그를 복사하세요.
-   - ![이미지](https://doorimul-kjh.github.io/assets/img/posts/google_search_engine_html.png){: width="700" }
+   ![이미지](https://doorimul-kjh.github.io/assets/img/posts/google_search_engine_html.png){: width="700" }
 
 ### Step 2. 소유권 확인을 위한 HTML 태그 추가
 
@@ -69,9 +69,9 @@ render_with_liquid: false
 
 3. **Google Search Console에 사이트맵 제출**: 
    - **오른쪽 메뉴에서 Sitemaps 선택**: Google Search Console 대시보드에서 **Sitemaps** 메뉴로 이동하세요.
-   - ![이미지](https://doorimul-kjh.github.io/assets/img/posts/google_search_engine_sitemap_side.png){: width="700" }
+   ![이미지](https://doorimul-kjh.github.io/assets/img/posts/google_search_engine_sitemap_side.png){: width="700" }
    - **사이트맵 URL 입력 후 제출**: 생성한 `sitemap.xml` 파일의 URL을 입력하고 제출하세요 (예: `https://zoren.github.io/sitemap.xml`). 
-   - ![이미지](https://doorimul-kjh.github.io/assets/img/posts/google_search_engine_sitemap.png){: width="700" }
+   ![이미지](https://doorimul-kjh.github.io/assets/img/posts/google_search_engine_sitemap.png){: width="700" }
 
 ### Step 4. robots.txt 파일 설정
 
@@ -95,4 +95,4 @@ render_with_liquid: false
    - **Google 검색창 사용**: Google 검색창을 열고 블로그 이름을 정확히 입력한 후 검색하세요.
 
 2. **검색 결과 확인**: 블로그 주소와 포스트가 정상적으로 검색 결과에 표시되는지 확인하세요.
-   - ![이미지](https://doorimul-kjh.github.io/assets/img/posts/google_search_engine_search_result.png){: width="700" }
+   ![이미지](https://doorimul-kjh.github.io/assets/img/posts/google_search_engine_search_result.png){: width="700" }
