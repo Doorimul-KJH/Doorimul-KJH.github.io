@@ -73,4 +73,4 @@ GoatCounter의 Tracking 코드를 블로그에 추가하여 조회수 기능을 
 2. **조회수 확인**: 각 페이지의 조회수가 정상적으로 기록되는지 대시보드에서 확인하세요.
 
    ![GoatCounter 대시보드에서 조회수를 확인하는 모습](https://doorimul-kjh.github.io/assets/img/posts/goatcounter_dashboard.png){: width="700" }
-   
+      ![GitHub Issues에서 댓글 관리 화면](https://doorimul-kjh.github.io/assets/img/posts/utterance_comment_function.png){: width="700" }
