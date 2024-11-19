@@ -12,11 +12,8 @@ render_with_liquid: false
 
 ### Step 0. 사전 준비사항(개발환경)
 
-- **macOS**: Apple Silicon M2 Max, **Sonoma 14.5.1**
-- **Git 설치**: Homebrew 사용 권장
 - **VS Code 설치**: 편집기
 - **Github 가입**: GitHub 계정 생성 필요
-- **기본 셸**: `zsh` 사용 (macOS 기본 셸 설정)
 
 ### Google Search Console을 이용해 GitHub 블로그를 검색 엔진에 노출시키기
 
@@ -33,13 +30,13 @@ render_with_liquid: false
 3. **사이트 등록**: 도메인 또는 URL Prefix를 입력하여 사이트를 등록하세요. 
    - **왼쪽에서 URL Prefix 선택 후 블로그 주소 입력**: 일반적으로 `URL Prefix`를 선택하고 자신의 블로그 주소를 입력하세요 (예: `https://zoren.github.io`).
 
-4. **소유권 확인**: 소유권을 확인하는 단계에서 HTML 파일 업로드, HTML 태그 추가, Google Analytics 계정 연결 등의 방법이 제공됩니다. 
+4. **소유권 확인(중요)**: 소유권을 확인하는 단계에서 HTML 파일 업로드, HTML 태그 추가, Google Analytics 계정 연결 등의 방법이 제공됩니다. 
    - **HTML 태그 추가 선택**: 여러 옵션 중에서 **HTML 태그 추가**를 선택하고, 제공된 메타 태그를 복사하세요.
 
 ### Step 2. 소유권 확인을 위한 HTML 태그 추가
 
 1. **블로그 Repository로 이동**: GitHub에서 블로그로 사용할 Repository(예: `zoren.github.io`)로 이동하세요.
-2. **HTML 파일 수정**: `_config.yml` 또는 블로그의 기본 HTML 파일에 Google 소유권 확인을 위한 메타 태그를 추가하세요. 
+2. **HTML 파일 수정(중요)**: `_config.yml` 또는 블로그의 기본 HTML 파일에 Google 소유권 확인을 위한 메타 태그를 추가하세요. 
    - **템플릿 파일의 `<head>` 태그에 추가**: 일반적으로 기본 템플릿 파일의 `<head>` 태그에 추가합니다.
       ```html
       <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE" />
@@ -48,7 +45,7 @@ render_with_liquid: false
 
 ### Step 3. 사이트맵 추가하기
 
-1. **사이트맵 파일 생성**: 블로그의 루트 디렉토리에 `sitemap.xml` 파일을 생성하세요. 아래는 `sitemap.xml`의 예시입니다.
+1. **사이트맵 파일 생성(필수)**: 블로그의 루트 디렉토리에 `sitemap.xml` 파일을 생성하세요. 아래는 `sitemap.xml`의 예시입니다.
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
@@ -65,15 +62,15 @@ render_with_liquid: false
    - **`loc` 태그에 URL 입력**: `loc` 태그에는 블로그 포스트의 URL을 입력하세요.
    - **`lastmod` 태그에 수정 날짜 입력**: `lastmod` 태그에는 마지막 수정 날짜를 입력하세요.
 
-2. **사이트맵 파일 저장 위치**: `sitemap.xml` 파일은 블로그 Repository의 루트 디렉토리에 저장하세요.
+2. **사이트맵 파일 저장 위치**: `sitemap.xml` 파일은 블로그 Repository의 루트 디렉토리에 저장하세요. _config.yml 파일과 같은 위치
 
 3. **Google Search Console에 사이트맵 제출**: 
    - **오른쪽 메뉴에서 Sitemaps 선택**: Google Search Console 대시보드에서 **Sitemaps** 메뉴로 이동하세요.
-   - **사이트맵 URL 입력 후 제출**: 생성한 `sitemap.xml` 파일의 URL을 입력하고 제출하세요 (예: `https://zoren.github.io/sitemap.xml`).
+   - **사이트맵 URL 입력 후 제출**: 생성한 `sitemap.xml` 파일의 URL을 입력하고 제출하세요 (예: `https://zoren.github.io/sitemap.xml`). 
 
 ### Step 4. robots.txt 파일 설정
 
-1. **robots.txt 파일 생성**: `robots.txt` 파일을 생성하여 검색 엔진이 크롤링할 수 있는 페이지와 크롤링하지 말아야 할 페이지를 설정하세요. 아래는 `robots.txt`의 예시입니다.
+1. **robots.txt 파일 생성(필수)**: `robots.txt` 파일을 생성하여 검색 엔진이 크롤링할 수 있는 페이지와 크롤링하지 말아야 할 페이지를 설정하세요. 아래는 `robots.txt`의 예시입니다.
 
    ```
    User-agent: *
@@ -85,7 +82,7 @@ render_with_liquid: false
    - **`Disallow` 설정**: 특정 경로를 검색 엔진이 크롤링하지 않도록 설정합니다.
    - **`Sitemap` 설정**: `Sitemap`에는 사이트맵의 URL을 입력하세요.
 
-2. **robots.txt 파일 저장 위치**: `robots.txt` 파일 역시 블로그 Repository의 루트 디렉토리에 저장하세요.
+2. **robots.txt 파일 저장 위치**: `robots.txt` 파일 역시 블로그 Repository의 루트 디렉토리에 저장하세요. _config.yml 파일과 같은 위치
 
 ### Step 5. Google에서 블로그 검색 결과 확인
 

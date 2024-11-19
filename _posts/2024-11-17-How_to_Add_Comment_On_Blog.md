@@ -12,11 +12,8 @@ render_with_liquid: false
 
 ### Step 0. 사전 준비사항(개발환경)
 
-- **macOS**: Apple Silicon M2 Max, **Sonoma 14.5.1**
-- **Git 설치**: Homebrew 사용 권장
 - **VS Code 설치**: 편집기
 - **Github 가입**: GitHub 계정 생성 필요
-- **기본 셸**: `zsh` 사용 (macOS 기본 셸 설정)
 
 ### Utterance 앱 설치
 
@@ -27,22 +24,18 @@ render_with_liquid: false
 ### Step 1. Utterance 가입 및 설치 방법
 
 1. **Utterance 설치 페이지로 이동**: [Utterance GitHub 앱 링크](https://github.com/apps/utterances)
+
 2. **Install 버튼 클릭**: GitHub 페이지에서 Install 버튼을 찾아 클릭하세요.
 
 3. **Repository 선택**: Utterances를 설치할 Repository를 선택하세요.
    - 블로그로 사용할 Repository (예: `zoren.github.io`)를 선택하세요.
    - **Only select repositories**를 선택하여 필요한 Repository만 추가하도록 설정할 수 있습니다.
 
-   
-
 4. **Install 클릭**: 선택이 완료되면 하단의 **Install** 버튼을 눌러 설치를 진행하세요.
 
 5. **Utterance와 연결할 Repo 작성하기**: Utterance와 연결할 Repository 이름을 정확히 작성하세요. 이는 댓글이 저장될 공간입니다.
 
-
 6. **Issue Mapping 방법 선택하기**: 댓글이 어떻게 매핑될지 선택하세요. 일반적으로 pathname, url, title 등으로 설정할 수 있습니다. 저 같은 경우에는 가장 첫 번째인 pathname을 선택했습니다. 이 옵션은 각 블로그 포스트의 URL 경로를 기준으로 댓글이 매핑되므로 편리합니다.
-
-
 
 
 ### Step 2. Utterance 설정
