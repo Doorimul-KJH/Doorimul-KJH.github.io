@@ -30,7 +30,7 @@ render_with_liquid: false
 2. **Install 버튼 클릭**: GitHub 페이지에서 Install 버튼을 찾아 클릭하세요.
 
   - ![페이지에서 Utterance 앱을 설치하기 위해 "Install" 버튼을 누르는 모습](../assets/img/Using_Utterance_to_Enable_Comments_on_a_GitHub_Pages_Blog_(Chirpy_Theme)/utterance_install_button.png)
-  - ![페이지에서 Utterance 앱을 설치하기 위해 "Install" 버튼을 누르는 모습](/assets/img/posts/utterance_install_button.png)
+  - ![img](/assets/img/posts/utterance_install_button.png)
   <!-- - ![페이지에서 Utterance 앱을 설치하기 위해 "Install" 버튼을 누르는 모습](https://github.com/Doorimul-KJH/Doorimul-KJH.github.io/blob/main/assets/img/Using_Utterance_to_Enable_Comments_on_a_GitHub_Pages_Blog_(Chirpy_Theme)/utterance_blog_issue_mapping.png) -->
    <!-- <GitHub 페이지에서 Utterance 앱을 설치하기 위해 "Install" 버튼을 누르는 모습> -->
 
