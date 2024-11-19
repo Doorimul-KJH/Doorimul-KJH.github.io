@@ -33,17 +33,16 @@ render_with_liquid: false
    - 블로그로 사용할 Repository (예: `zoren.github.io`)를 선택하세요.
    - **Only select repositories**를 선택하여 필요한 Repository만 추가하도록 설정할 수 있습니다.
 
-   <!-- ![Utterances를 설치할 Repository를 선택하는 화면](../assets/img/Using_Utterance_to_Enable_Comments_on_a_GitHub_Pages_Blog_(Chirpy_Theme)/utterance_select_repository.png) -->
-   <!-- <Utterances를 설치할 Repository를 선택하는 화면> -->
+   
 
 4. **Install 클릭**: 선택이 완료되면 하단의 **Install** 버튼을 눌러 설치를 진행하세요.
 
 5. **Utterance와 연결할 Repo 작성하기**: Utterance와 연결할 Repository 이름을 정확히 작성하세요. 이는 댓글이 저장될 공간입니다.
-  <!-- - ![Utterance와 연결할 Repo 작성하기](../assets/img/Using_Utterance_to_Enable_Comments_on_a_GitHub_Pages_Blog_(Chirpy_Theme)/utterance_configuration_repository.png) -->
+
 
 6. **Issue Mapping 방법 선택하기**: 댓글이 어떻게 매핑될지 선택하세요. 일반적으로 pathname, url, title 등으로 설정할 수 있습니다. 저 같은 경우에는 가장 첫 번째인 pathname을 선택했습니다. 이 옵션은 각 블로그 포스트의 URL 경로를 기준으로 댓글이 매핑되므로 편리합니다.
 
-  <!-- - ![Blog와 Issue를 어떻게 Mapping 할 것 인지 선택하는 화면](../assets/img/Using_Utterance_to_Enable_Comments_on_a_GitHub_Pages_Blog_(Chirpy_Theme)/utterance_blog_issue_mapping.png) -->
+
 
 
 ### Step 2. Utterance 설정
@@ -66,9 +65,7 @@ Utterances를 설치한 후, 블로그에서 댓글 기능을 활성화하기 �
    - `repo`는 댓글을 저장할 Repository 이름입니다.
    - `issue-term`는 댓글이 저장되는 기준을 설정하는 것으로, `pathname`을 사용하면 URL 경로를 기준으로 Issue가 생성됩니다.
 
-  <!-- ![Utterance 설정을 `_config.yml` 또는 HTML 파일에 추가하는 모습](../assets/img/Using_Utterance_to_Enable_Comments_on_a_GitHub_Pages_Blog_(Chirpy_Theme)/utterance_config.yml_modified.png) -->
 
-   <!-- <Utterance 설정을 `_config.yml` 또는 HTML 파일에 추가하는 모습> -->
 
 4. **Utterance와 연결할 Repo 작성하기**: Utterance와 연결할 Repository 이름을 정확히 작성하세요. 이는 댓글이 저장될 공간입니다.
 
@@ -86,8 +83,7 @@ Utterances를 설치한 후, 블로그에서 댓글 기능을 활성화하기 �
 
 2. **댓글 작성 테스트**: GitHub 계정으로 로그인 후, 댓글을 달아보세요. 댓글이 정상적으로 저장되고 표시되는지 확인하세요.
 
-   <!-- ![GitHub 계정으로 로그인하고 댓글을 작성하는 모습](../assets/img/Using_Utterance_to_Enable_Comments_on_a_GitHub_Pages_Blog_(Chirpy_Theme)/utterance_comment_test.png) -->
-   <!-- <GitHub 계정으로 로그인하고 댓글을 작성하는 모습> -->
+
 
 ### Step 4. Utterance 작동 확인
 
@@ -96,11 +92,8 @@ Utterances를 설정한 후, 실제로 블로그에 댓글 기능이 어떻게 �
 1. **댓글 작성 및 GitHub Issues 생성 확인**:
    - 블로그 포스트에서 댓글을 작성하면, 해당 Repository의 **Issues** 탭에서 작성된 댓글이 Issue로 자동 생성됩니다.
 
-   <!-- ![GitHub Repository의 Issues 탭에 댓글이 Issue로 생성된 모습](../assets/img/Using_Utterance_to_Enable_Comments_on_a_GitHub_Pages_Blog_(Chirpy_Theme)/utterance_comment_check.png) -->
-   <!-- <블로그 포스트 하단에 Utterance 댓글 기능이 나타나는 모습> -->
-   <!-- <GitHub Repository의 Issues 탭에 댓글이 Issue로 생성된 모습> -->
+
 
 2. **댓글 관리 방법**:
    - GitHub Issues에서 댓글을 직접 관리할 수 있습니다. 예를 들어, 부적절한 댓글을 삭제하거나, 스팸으로 표시할 수 있습니다.
 
-   <!-- ![GitHub Issues에서 댓글을 관리하는 모습](../assets/img/Using_Utterance_to_Enable_Comments_on_a_GitHub_Pages_Blog_(Chirpy_Theme)/utterance_comment_function.png) -->
