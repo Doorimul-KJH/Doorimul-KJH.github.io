@@ -41,9 +41,9 @@ render_with_liquid: false
 1. **블로그 Repository로 이동**: GitHub에서 블로그로 사용할 Repository(예: `zoren.github.io`)로 이동하세요.
 2. **HTML 파일 수정**: `_config.yml` 또는 블로그의 기본 HTML 파일에 Google 소유권 확인을 위한 메타 태그를 추가하세요. 
    - **템플릿 파일의 `<head>` 태그에 추가**: 일반적으로 기본 템플릿 파일의 `<head>` 태그에 추가합니다.
-   ```html
-   <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE" />
-   ```
+      ```html
+      <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE" />
+      ```
    - `YOUR_VERIFICATION_CODE` 부분에 Google Search Console에서 제공된 코드를 입력하세요.
 
 ### Step 3. 사이트맵 추가하기
