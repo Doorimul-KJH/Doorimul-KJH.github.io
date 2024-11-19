@@ -29,7 +29,7 @@ render_with_liquid: false
 1. **GoatCounter 웹사이트로 이동**: [GoatCounter 공식 웹사이트](https://www.goatcounter.com/)에 접속하세요.
 2. **Sign up 버튼 클릭**: 우측 상단의 **Sign up** 버튼을 클릭하고 이메일 주소를 입력하여 계정을 생성하세요.
 
-   ![GoatCounter 웹사이트에서 "Sign up" 버튼을 클릭하는 모습](https://doorimul-kjh.github.io/assets/img/posts/goatcounter_sign_up.png){: width="700" }
+   <!-- ![GoatCounter 웹사이트에서 "Sign up" 버튼을 클릭하는 모습](https://doorimul-kjh.github.io/assets/img/posts/goatcounter_sign_up.png){: width="700" } -->
 
 3. **사이트 등록**: 가입 후, 블로그에 연결할 사이트를 등록하세요. 사이트의 이름과 URL을 입력하고 **Create site** 버튼을 클릭하세요.
 
@@ -56,7 +56,7 @@ GoatCounter의 Tracking 코드를 블로그에 추가하여 조회수 기능을 
    ```
    - `data-goatcounter`의 URL 부분에는 GoatCounter에서 제공한 URL을 입력하세요.
 
-   ![GoatCounter 설정을 `_config.yml` 파일에 추가하는 모습](https://doorimul-kjh.github.io/assets/img/posts/goatcounter_config.yml_modified.png){: width="700" }
+   <!-- ![GoatCounter 설정을 `_config.yml` 파일에 추가하는 모습](https://doorimul-kjh.github.io/assets/img/posts/goatcounter_config.yml_modified.png){: width="700" } -->
 
 3. **HTML 파일 수정**: HTML 파일의 `<head>` 태그 안에 Tracking 코드를 추가할 수도 있습니다. 일반적으로 기본 템플릿 파일에 추가하는 것이 좋습니다.
 
@@ -72,5 +72,4 @@ GoatCounter의 Tracking 코드를 블로그에 추가하여 조회수 기능을 
 1. **GoatCounter 대시보드 접속**: [GoatCounter 대시보드](https://www.goatcounter.com/)에 접속하여 자신의 사이트를 선택하세요.
 2. **조회수 확인**: 각 페이지의 조회수가 정상적으로 기록되는지 대시보드에서 확인하세요.
 
-   ![GoatCounter 대시보드에서 조회수를 확인하는 모습](https://doorimul-kjh.github.io/assets/img/posts/goatcounter_dashboard.png){: width="700" }
-      ![GitHub Issues에서 댓글 관리 화면](https://doorimul-kjh.github.io/assets/img/posts/utterance_comment_function.png){: width="700" }
+   <!-- ![GoatCounter 대시보드에서 조회수를 확인하는 모습](https://doorimul-kjh.github.io/assets/img/posts/goatcounter_dashboard.png){: width="700" } -->
