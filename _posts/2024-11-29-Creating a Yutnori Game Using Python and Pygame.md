@@ -186,3 +186,123 @@ for p in range(6):
     - 각 대각선의 중간 지점(`p == 3`)에는 큰 원(`bigcircle_img`)을 사용하여 방향 변경 지점을 강조하였습니다.
 
 위의 코드를 통해 전통적인 윷판의 모양을 Pygame으로 구현하고, 말들이 이동할 경로를 설정하였습니다. 테두리와 대각선 경로를 명확히 정의하여 플레이어들이 이동할 수 있는 각 위치를 직관적으로 나타내도록 설계하였습니다.
+
+
+### Step 4. 윷놀이에 필요한 이미지 로드
+
+윷놀이를 구현하기 위해서는 다양한 이미지가 필요합니다. 아래 코드는 게임에 필요한 이미지를 Pygame으로 로드하는 과정에 대해 설명하겠습니다.
+
+```python
+circle_img = pygame.image.load(os.path.join(img_path, "circle.jpg"))
+bigcircle_img = pygame.image.load(os.path.join(img_path, "bigcircle.jpg"))
+startcircle_img = pygame.image.load(os.path.join(img_path, "startcircle.jpg"))
+line_img = pygame.image.load(os.path.join(img_path, "line.png"))
+
+bigorange_img = pygame.image.load(os.path.join(img_path, "bigorange.png"))
+orange_img = pygame.image.load(os.path.join(img_path, "orange.png"))
+
+# 말 이미지 로드 (파란색, 초록색, 빨간색, 노란색)
+bigblue_img = [
+    pygame.image.load(os.path.join(img_path, f"bigblue{i}.jpg")) for i in range(1, 5)
+]
+blue_img = [
+    pygame.image.load(os.path.join(img_path, f"blue{i}.jpg")) for i in range(1, 5)
+]
+
+biggreen_img = [
+    pygame.image.load(os.path.join(img_path, f"biggreen{i}.jpg")) for i in range(1, 5)
+]
+green_img = [
+    pygame.image.load(os.path.join(img_path, f"green{i}.jpg")) for i in range(1, 5)
+]
+
+bigred_img = [
+    pygame.image.load(os.path.join(img_path, f"bigred{i}.jpg")) for i in range(1, 5)
+]
+red_img = [
+    pygame.image.load(os.path.join(img_path, f"red{i}.jpg")) for i in range(1, 5)
+]
+
+bigyellow_img = [
+    pygame.image.load(os.path.join(img_path, f"bigyellow{i}.jpg")) for i in range(1, 5)
+]
+yellow_img = [
+    pygame.image.load(os.path.join(img_path, f"yellow{i}.jpg")) for i in range(1, 5)
+]
+
+select_big_img = pygame.image.load(os.path.join(img_path, "bigorange.png"))
+select_img = pygame.image.load(os.path.join(img_path, "orange.png"))
+```
+
+**설명**:
+
+- **기본 이미지 로드**: 
+  - `circle_img`, `bigcircle_img`, `startcircle_img`, `line_img` 등은 윷판에서 사용하는 기본적인 원과 라인의 이미지로, 윷놀이 판에 표시되는 각기 다른 지점들을 시각적으로 구분하기 위해 사용하였습니다.
+- **색깔별 말 이미지 로드**:
+  - 파란색(`blue_img`), 초록색(`green_img`), 빨간색(`red_img`), 노란색(`yellow_img`) 말 이미지를 각 플레이어에게 할당하였습니다. 각 플레이어의 말은 작은 말(`blue_img`, `green_img`, 등)과 큰 말(`bigblue_img`, `biggreen_img`, 등)으로 나뉘어져 있으며, 큰 말은 특정 조건에서 업힐 때 사용되었습니다.
+- **리스트 활용**:
+  - 각 말의 이미지는 리스트로 관리하여, 각각의 플레이어가 사용하는 4개의 말을 쉽게 접근하고 관리할 수 있도록 하였습니다. 이 방식을 사용하면 코드의 반복을 줄이고, 말의 상태를 쉽게 업데이트할 수 있습니다.
+
+### Step 5. 윷놀이에 필요한 버튼 생성
+
+게임 플레이를 위해 다양한 버튼이 필요합니다. 아래 코드는 윷놀이에 필요한 버튼을 생성하는 방법에 대해 설명하겠습니다.
+
+```python
+# 윷 던지기 버튼 생성
+throw_button_rect = pygame.Rect(button_size_x * 9, button_size_y * 10, button_size_x * 3, button_size_y)
+throw_button_color = YELLOW
+
+# 윷 던지기 선택 효과 생성
+throw_new_rect = pygame.Rect(button_size_x * 9, button_size_y * 10, button_size_x * 3, button_size_y)
+throw_new_color = ORANGE
+
+# 새로운 말 버튼 생성
+new_piece_button_rect = pygame.Rect(button_size_x * 9, button_size_y * 11, button_size_x * 3, button_size_y)
+new_piece_button_color = LIGHT_BLUE
+
+# 새로운 말 선택 효과 생성
+select_new_button_rect = pygame.Rect(button_size_x * 9, button_size_y * 11, button_size_x * 3, button_size_y)
+select_new_button_color = ORANGE
+
+# 윷 판 클릭 버튼 생성
+pan_click_button_rect = pygame.Rect(button_size_x * 9, button_size_y * 9, button_size_x * 3, button_size_y)
+pan_click_button_color = LIGHT_BLUE
+```
+
+**설명**:
+
+- **버튼 생성 방법**:
+  - `pygame.Rect()`를 사용하여 버튼의 위치와 크기를 지정하였습니다. 예를 들어 `throw_button_rect`는 윷 던지기 버튼으로, `(button_size_x * 9, button_size_y * 10, button_size_x * 3, button_size_y)`의 좌표와 크기를 가지도록 설정하였습니다.
+- **색상 설정**:
+  - 각 버튼에는 특정한 색상을 부여하여 시각적인 구분을 명확히 하였습니다. 예를 들어, 윷 던지기 버튼에는 **노란색(YELLOW)**이 사용되었습니다. 이는 사용자가 쉽게 인지할 수 있도록 시각적으로 구분된 색상을 부여한 것입니다.
+- **선택 효과 버튼 생성**:
+  - 버튼을 선택했을 때의 효과를 제공하기 위해 선택 효과 버튼(`throw_new_rect`, `select_new_button_rect`)도 별도로 생성하였습니다. 이를 통해 버튼이 선택된 상태와 그렇지 않은 상태를 쉽게 구분할 수 있도록 하였습니다.
+- **새로운 말 버튼**:
+  - 새로운 말을 게임에 추가할 수 있는 버튼(`new_piece_button_rect`)을 생성하였습니다. 이 버튼은 사용자가 윷을 던진 후 새로운 말을 판에 올릴 때 사용하는 버튼입니다.
+  
+### Step 6. 윷놀이 게임 알고리즘
+
+윷놀이의 말 이동을 위한 게임 알고리즘은 복잡한 윷판의 경로를 구현하기 위해 여러 가지 방식으로 구현할 수도 있습니다. 여기서는 **이중 연결 리스트**와 **딕셔너리**를 이용한 두 가지 방법을 소개하겠습니다.
+
+#### 첫 번째 방법: 이중 연결 리스트로 구현
+
+- **윷판의 경로를 이중 연결 리스트로 구현**하는 방법이 있습니다. 각 노드는 윷놀이 판의 특정 위치를 나타내며, 각 노드는 전 노드와 다음 노드를 가리키는 포인터를 가집니다.
+- **말 이동**:
+  - 윷을 던진 후 나온 값만큼 현재 노드에서부터 하나씩 이동하였습니다.
+  - 예를 들어, 주사위 값이 3이라면 현재 노드에서부터 1씩 주사위 값을 소모하며 이동하였습니다.
+- **특수한 노드 처리**:
+  - 노드 번호가 5, 10, 22일 경우 특수한 이동 경로가 존재하여, 남은 주사위 값이 1 이상일 때 다음 특수한 노드로 이동하게 구현하였습니다.
+  - 주사위 값이 **-1(백도)**인 경우, 현재 위치에서 이전 노드로 이동하였습니다.
+- **shortway 값**:
+  - 각 말의 `shortway` 값을 사용하여 특수한 경로를 선택할 수 있도록 구현하였습니다. 말이 특수한 경로로 진입하면 `shortway` 값을 `true`로 설정하였습니다.
+
+#### 두 번째 방법: 딕셔너리로 구현
+
+- **딕셔너리 사용**:
+  - 윷판의 각 노드를 딕셔너리로 표현하고, 해당 노드에서 나올 수 있는 모든 결과를 딕셔너리에 저장하였습니다.
+  - 예를 들어, **3번 노드**에서 **개**가 나온 경우, 딕셔너리는 `{3번 노드: {도: 4, 개: 5, 걸: 6, 윷: 7, 모: 8}}` 형태로 정의하였습니다.
+  - 이러한 방식으로 모든 경우의 수를 미리 정의하여 윷놀이의 특수한 경우를 손쉽게 처리할 수 있도록 하였습니다.
+- **특수한 경우 처리**:
+  - **꼭짓점**과 **중심점**과 같은 특수한 위치에서의 이동을 미리 정의하여, 사용자가 특수한 위치에 도달했을 때의 이동 경로를 딕셔너리를 통해 즉시 확인할 수 있도록 하였습니다.
+
+이렇게 윷놀이 게임을 구현하기 위해 필요한 이미지 로드부터 버튼 생성, 알고리즘 설계 방법까지 자세히 설명하였습니다. Pygame을 이용하여 윷놀이 게임을 구현하려는 독자들에게 도움이 될 것입니다.
