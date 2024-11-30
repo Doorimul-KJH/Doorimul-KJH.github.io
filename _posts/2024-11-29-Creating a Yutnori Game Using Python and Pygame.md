@@ -5,6 +5,7 @@ date: 2024-11-29 00:00:00 +0900
 categories: [Blogging, Projects]
 tags: [blogging]
 pin: true
+# image: https://doorimul-kjh.github.io/assets/
 render_with_liquid: false
 ---
 
@@ -108,6 +109,7 @@ def throw_yoot():
 ### Step 3. 윷판 그리는 방법
 
 윷판은 게임의 주요 구성 요소로, 플레이어들이 말을 이동하는 경로를 시각적으로 표시해줍니다. 아래 코드는 윷판을 Pygame으로 그리는 방법을 설명하겠습니다.
+![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-board.png)
 
 ```python
 # 윷 판 테두리 생성
@@ -191,6 +193,18 @@ for p in range(6):
 ### Step 4. 윷놀이에 필요한 이미지 로드
 
 윷놀이를 구현하기 위해서는 다양한 이미지가 필요합니다. 아래 코드는 게임에 필요한 이미지를 Pygame으로 로드하는 과정에 대해 설명하겠습니다.
+사용된 이미지
+![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-bigcircle.jpg)
+![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-bigblue.jpg)
+![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-bigred.jpg)
+![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-biggreen.jpg)
+![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-bigyellow.jpg)
+![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-bigorange.png)
+![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-blue.jpg)
+![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-red.jpg)
+![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-yellow.jpg)
+![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-green.jpg)
+![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-orange.png)
 
 ```python
 circle_img = pygame.image.load(os.path.join(img_path, "circle.jpg"))
