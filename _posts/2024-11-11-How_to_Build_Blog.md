@@ -4,6 +4,7 @@ author: Doorimul-KJH
 date: 2024-11-11 00:00:00 +0900
 categories: [Blogging, Tutorial]
 tags: [writing]
+pin: true
 render_with_liquid: false
 ---
 
