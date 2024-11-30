@@ -191,16 +191,16 @@ for p in range(6):
 
 사용된 이미지
 - ![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-bigcircle.jpg)
-- ![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-bigblue.jpg)
-- ![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-bigred.jpg)
-- ![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-biggreen.jpg)
-- ![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-bigyellow.jpg)
-- ![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-bigorange.png)
+![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-bigblue.jpg)
+![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-bigred.jpg)
+![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-biggreen.jpg)
+![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-bigyellow.jpg)
+![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-bigorange.png)
 - ![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-blue.jpg)
-- ![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-red.jpg)
-- ![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-yellow.jpg)
-- ![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-green.jpg)
-- ![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-orange.png)
+![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-red.jpg)
+![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-yellow.jpg)
+![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-green.jpg)
+![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-orange.png)
 
 ```python
 circle_img = pygame.image.load(os.path.join(img_path, "circle.jpg"))
