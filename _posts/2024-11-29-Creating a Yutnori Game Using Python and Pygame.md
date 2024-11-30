@@ -1,5 +1,5 @@
 ---
-title: Creating a Yutnori Game Using Python and Pygame
+title: Creating a Yootnori Game Using Python and Pygame
 author: Doorimul-KJH
 date: 2024-11-29 00:00:00 +0900
 categories: [Blogging, Projects]
