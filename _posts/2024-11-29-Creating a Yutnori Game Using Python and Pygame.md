@@ -10,6 +10,7 @@ render_with_liquid: false
 ---
 
 # Pygame을 이용해 윷놀이 게임 만들기
+![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-icon.png)
 
 ### Step 0. 사전 준비사항(개발환경)
 
