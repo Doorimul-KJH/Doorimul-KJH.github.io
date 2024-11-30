@@ -9,11 +9,6 @@ pin: true
 render_with_liquid: false
 ---
 
-
-물론입니다. 모든 설명을 "~하였습니다." 형식으로 변경하여 정리해드리겠습니다.
-
----
-
 # Pygame을 이용해 윷놀이 게임 만들기
 
 ### Step 0. 사전 준비사항(개발환경)
@@ -193,18 +188,19 @@ for p in range(6):
 ### Step 4. 윷놀이에 필요한 이미지 로드
 
 윷놀이를 구현하기 위해서는 다양한 이미지가 필요합니다. 아래 코드는 게임에 필요한 이미지를 Pygame으로 로드하는 과정에 대해 설명하겠습니다.
+
 사용된 이미지
-![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-bigcircle.jpg)
-![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-bigblue.jpg)
-![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-bigred.jpg)
-![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-biggreen.jpg)
-![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-bigyellow.jpg)
-![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-bigorange.png)
-![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-blue.jpg)
-![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-red.jpg)
-![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-yellow.jpg)
-![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-green.jpg)
-![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-orange.png)
+- ![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-bigcircle.jpg)
+- ![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-bigblue.jpg)
+- ![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-bigred.jpg)
+- ![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-biggreen.jpg)
+- ![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-bigyellow.jpg)
+- ![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-bigorange.png)
+- ![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-blue.jpg)
+- ![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-red.jpg)
+- ![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-yellow.jpg)
+- ![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-green.jpg)
+- ![이미지](https://doorimul-kjh.github.io/assets/img/posts/yootnori-orange.png)
 
 ```python
 circle_img = pygame.image.load(os.path.join(img_path, "circle.jpg"))
