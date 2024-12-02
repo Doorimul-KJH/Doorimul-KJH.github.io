@@ -341,4 +341,6 @@ pan_click_button_color = LIGHT_BLUE
 3. **목표의 불명확성**: **팀원 중 한 명이라도 팀이 무엇을 개발하고자 하는지 명확하게 이해하지 못할 경우**, 애자일 방식의 **효율성은 급격히 떨어지고** 팀의 **사기가 저하**될 수 있었습니다. 애자일은 모든 팀원이 목표와 방향성을 공유하고, **자율적으로 작업을 수행**해야 하는 방식이기 때문에, 개개인의 목표 이해도가 낮으면 전체 프로젝트에 부정적인 영향을 미쳤습니다.
 
 #### 자세한 후기
-  url: https://doorimul-kjh.github.io/posts/Reflections_On_Agile_Lessons_Learned/
+'''url
+  https://doorimul-kjh.github.io/posts/Reflections_On_Agile_Lessons_Learned/
+'''
