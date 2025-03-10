@@ -2,7 +2,7 @@
 title: Algorithm - How to Calculate the Frequency of Integers in a Range With Java
 author: Doorimul-KJH
 date: 2025-03-09 00:00:00 +0900
-categories: [Blogging]
+categories: [Blogging, Algorithm]
 tags: [blogging, Algorithm]
 pin: true
 # image: https://doorimul-kjh.github.io/assets/
