@@ -1,5 +1,5 @@
 ---
-title: [Algorithm] How to Calculate the Frequency of Integers in a Range Using Java
+title: Algorithm - How to Calculate the Frequency of Integers in a Range Using Java
 author: Doorimul-KJH
 date: 2025-03-09 00:00:00 +0900
 categories: [Blogging]
@@ -59,7 +59,7 @@ render_with_liquid: false
    5-3. 탐색이 끝나면 count 값을 출력
 ```
 
-### 📍 기존 코드 (Java)
+### 기존 코드 (Java)
 
 ```java
 import java.util.Scanner;  // Scanner 클래스 불러오기
@@ -104,7 +104,7 @@ public class RangeFrequencyCounter {
 
 ---
 
-### 🔹 개선된 알고리즘 도식도
+### 개선된 알고리즘 도식도
 ```
 1. Scanner 객체 생성
 2. 정수 개수(n), 하한(lb), 상한(ub) 입력받기
