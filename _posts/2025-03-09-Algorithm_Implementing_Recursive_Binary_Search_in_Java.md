@@ -2,7 +2,7 @@
 title: Algorithm - Implementing Recursive Binary Search in Java
 author: Doorimul-KJH
 date: 2025-03-10 00:00:00 +0900
-categories: [Algorithm, blogging]
+categories: [Blogging, Algorithm]
 tags: [blogging, Algorithm]
 pin: true
 render_with_liquid: false
