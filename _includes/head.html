@@ -104,4 +104,9 @@
   {% endunless %}
 
   {% include metadata-hook.html %}
+
+  <!-- 수식 추가 03 13 -->
+  {% if page.use_math %}
+  {% include mathjax_support.html %}
+  {% endif %}
 </head>

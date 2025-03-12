@@ -6,6 +6,7 @@ categories: [Blogging, Algorithm]
 tags: [blogging, Algorithm]
 pin: true
 render_with_liquid: false
+use-math: true
 ---
 
 # 주제: 알고리즘 분석과 재귀 알고리즘 이해하기
@@ -20,7 +21,7 @@ render_with_liquid: false
 
 예를 들어 n개의 자료를 정렬할 때:
 
-- \(n^2\)에 비례하는 시간이 걸리는 알고리즘(버블 정렬 등)이 있고,
+- $\(n^2\)$에 비례하는 시간이 걸리는 알고리즘(버블 정렬 등)이 있고,
 - \(n \log_2 n\)에 비례하는 시간이 걸리는 알고리즘(병합 정렬 등)이 있습니다.
 
 알고리즘을 분석함으로써 자원과 시간을 효율적으로 사용할 수 있는 최적의 알고리즘을 선택할 수 있습니다.
