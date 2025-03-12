@@ -6,7 +6,7 @@ categories: [Blogging, Algorithm]
 tags: [blogging, Algorithm]
 pin: true
 render_with_liquid: false
-use-math: true
+use_math: true
 ---
 
 # 주제: 알고리즘 분석과 재귀 알고리즘 이해하기
