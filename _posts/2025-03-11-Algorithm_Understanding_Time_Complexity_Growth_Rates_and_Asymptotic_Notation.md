@@ -40,7 +40,7 @@ use_math: true
 
 ## 2-1. 시간 복잡도의 다양한 예시
 
-### 예시 1: 시간 복잡도 $\O(1)\$ – 상수 알고리즘
+### 예시 1: 시간 복잡도 $O(1)$ – 상수 알고리즘
 ```java
 public class ConstantTime {
     public static void main(String[] args) {
