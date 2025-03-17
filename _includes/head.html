@@ -9,6 +9,8 @@
     content="width=device-width, user-scalable=no initial-scale=1, shrink-to-fit=no, viewport-fit=cover"
   >
 
+  <!-- description 자동 생성 방지 -->
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   {%- capture seo_tags -%}
     {% seo title=false %}
   {%- endcapture -%}
