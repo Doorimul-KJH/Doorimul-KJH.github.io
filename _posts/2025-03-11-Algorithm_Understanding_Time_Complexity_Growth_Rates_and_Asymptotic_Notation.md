@@ -259,7 +259,10 @@ n > 25
 #### **수학적 정의**
 $ O(g(n)) $은 다음을 만족하는 함수들의 집합입니다.
 
-- $[
+<!-- - $[
+O(g(n)) = { f(n) | exists c > 0, n_0 geq 0 text{ such that } forall n geq n_0, f(n) leq c cdot g(n) }
+]$ -->
+$[
 O(g(n)) = { f(n) | exists c > 0, n_0 geq 0 text{ such that } forall n geq n_0, f(n) leq c cdot g(n) }
 ]$
 
