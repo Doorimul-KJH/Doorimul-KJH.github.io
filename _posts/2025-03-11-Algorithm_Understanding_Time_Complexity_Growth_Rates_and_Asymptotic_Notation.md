@@ -259,13 +259,10 @@ n > 25
 #### **수학적 정의**
 $ O(g(n)) $은 다음을 만족하는 함수들의 집합입니다.
 
-- $$
+$$
 O(g(n)) = \{ f(n) \mid \exists c > 0, n_0 \geq 0 \text{ such that } \forall n \geq n_0, f(n) \leq c \cdot g(n) \}
 $$
 
-% <!-- $[
-% O(g(n)) = { f(n) | exists c > 0, n_0 geq 0 text{ such that } forall n geq n_0, f(n) leq c cdot g(n) }
-% ]$ -->
 
 즉, **어떤 상수 $( c )$와 특정한 $( n_0 )$ 이상에서는** $ f(n) $이 항상 $ g(n) $보다 작거나 같으면 $ f(n) in O(g(n)) $입니다. 이는 **최악의 경우에도 $ g(n) $을 초과하지 않는다는 의미(이하, $(leq)$)**입니다.
 
