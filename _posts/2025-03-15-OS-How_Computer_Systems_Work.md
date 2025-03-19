@@ -1,5 +1,5 @@
 ---
-title: "OS-How Computer Systems Work"
+title: "OS - How Computer Systems Work"
 author: Doorimul-KJH
 date: 2025-03-14 00:00:00 +0900
 categories: [Blogging, OS]
