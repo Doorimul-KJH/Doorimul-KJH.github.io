@@ -273,16 +273,16 @@ $$
 #### **빅-오메가 - $ Omega(g(n)) $**
 - **$ f(n) $이 적어도 $ g(n) $ 이상의 속도로 증가하는 경우(이상, $(geq)$)**를 의미합니다.
 
-- $[
-Omega(g(n)) = { f(n) | exists c > 0, n_0 geq 0 text{ such that } forall n geq n_0, f(n) geq c cdot g(n) }
-]$
+$$
+\Omega(g(n)) = \{ f(n) \mid \exists c > 0, n_0 \geq 0 \text{ such that } \forall n \geq n_0, f(n) \geq c \cdot g(n) \}
+$$
 
 #### **세타 - $ Theta(g(n)) $**
 - **$( f(n) )이 ( g(n) )$과 동일한 증가 속도를 가질 때(이상, 이하 $(geq), (leq)$)**를 의미합니다.
 
-- $[
-Theta(g(n)) = O(g(n)) cap Omega(g(n))
-]$
+$$
+\Theta(g(n)) = O(g(n)) \cap \Omega(g(n))
+$$
 
 즉, **$( g(n) )$을 벗어나지 않고 정확히 동일한 증가율을 갖는 경우**를 나타냅니다.
 
